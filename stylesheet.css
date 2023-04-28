@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+    font-family: serif;
+    line-height: 1.7;
+    color: #000000;
+    background-color: #ffffff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, li {
+    margin-left: 10px;
+}
+
+img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+}
+
+#column1 {
+    width: 80%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.a_book {
+    display: flex;
+    flex-direction: column;
+}
+
+.book_title {
+    margin-bottom: auto;
+}
+
+#column2 {
+    width: 20%;
+}
+
+footer {
+    margin-top: auto;
+}
