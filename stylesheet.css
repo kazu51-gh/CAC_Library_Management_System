@@ -15,6 +15,16 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, span, li {
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    padding: 10px 0;
 }
 
 img {
@@ -24,11 +34,11 @@ img {
     margin-right: auto;
 }
 
-main {
+#columns {
     display: flex;
 }
 
-#column1 {
+.column1 {
     width: 80%;
 }
 
@@ -46,10 +56,20 @@ main {
     margin-bottom: auto;
 }
 
-#column2 {
+.column2 {
     width: 20%;
 }
 
 footer {
     margin-top: auto;
+}
+
+.footer_contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rinks {
+    border: solid 2px;
+    padding: 2px;
 }
