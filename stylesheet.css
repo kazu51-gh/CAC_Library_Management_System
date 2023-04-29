@@ -52,6 +52,10 @@ img {
     flex-direction: column;
 }
 
+.a_book p {
+    line-height: 0.1;
+}
+
 .book_title {
     margin-bottom: auto;
 }
