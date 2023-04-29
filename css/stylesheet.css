@@ -34,6 +34,29 @@ img {
     margin-right: auto;
 }
 
+.header_contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.borrow_and_return {
+    display: flex;
+}
+
+.borrow_and_return p {
+    font-size: 20px;
+}
+
+.borrow_button {
+    border: solid 2px;
+    cursor: pointer;
+}
+
+.return_button {
+    border: solid 2px;
+    cursor: pointer;
+}
+
 #columns {
     display: flex;
 }
