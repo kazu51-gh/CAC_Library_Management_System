@@ -5,6 +5,7 @@
         <meta name="description" content="CAC_Book_Management_System">
         <title>C.A.C.図書管理システム</title>
         <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="js/main.js"></script>
     </head>
     <body>
         <header>
@@ -19,8 +20,17 @@
         </header>
         <main id="columns">
             <div class="column1">
-                <h2>図書一覧</h2>
-                <p>C.A.C.が保有する図書を紹介しています。</p>
+                <div class="search_box">
+                    <div class="box_1">
+                        <h2>図書一覧</h2>
+                        <p>C.A.C.が保有する図書を紹介しています。</p>
+                    </div>
+                    <div class="box_2">
+                        <h2>検索</h2>
+                        <input type="text" id="input_keyword" onkeyup="search_func()" placeholder="キーワードを入力してください">
+                    </div>
+                </div>
+                <hr>
                 <div class="container">
                     <div class="a_book">
                         <h3 class="book_title">Unityゲーム プログラミング・バイブル 2nd Generation</h3>
