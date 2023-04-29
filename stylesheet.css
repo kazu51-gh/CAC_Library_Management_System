@@ -53,7 +53,7 @@ img {
 }
 
 .a_book p {
-    line-height: 0.1;
+    line-height: 0.8;
 }
 
 .book_title {
@@ -76,4 +76,27 @@ footer {
 .rinks {
     border: solid 2px;
     padding: 2px;
+}
+
+.info_and_stock {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    width: 70%;
+}
+
+.stock {
+    width: 30%;
+}
+
+.stock img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
